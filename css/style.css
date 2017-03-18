@@ -8,7 +8,6 @@ body{
   font-family:'Raleway', sans-serif;
 }
 
-
 #package{
   background-color: rgb(241, 241, 241);
 }
@@ -181,6 +180,7 @@ body{
   }
 
 /*-- REVIEWS --*/
+
   .review-title-1{
    font-size: 3.5em;
   }
@@ -219,6 +219,7 @@ body{
     border-right: 1px solid lightgrey!important;
   }
 
+
   .review-padding{
     padding-top: 50px;
     margin-left: -42px;
@@ -237,6 +238,41 @@ body{
 
   .review-title{
     font-weight:600;
+    font-size: 15px;
+  }
+
+
+
+/*-- SERVICES --*/
+  .services-title-1{
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  .services-text-1{
+    opacity: 0.8;
+  }
+
+  .icons-services{
+    color: #0095FF;
+    font-size: 45px;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .icons-services:hover{
+    transform: rotate(360deg);
+  }
+
+  .services-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .services-text{
+    line-height: 2.2;
+    opacity: 0.8;
     font-size: 15px;
   }
 
