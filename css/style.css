@@ -1,35 +1,305 @@
-
-//--- General Config
 * {
-
   margin: 0;
-}
-body{
-  font-family:'Raleway', sans-serif;
-}
+  padding: 0;
+ }
 
-#package{
-  background-color: rgb(241, 241, 241);
-}
+ body {
+   font-family: 'Lato', sans-serif;
+ }
 
+.row {
+  width: 100%;
+}
 .colorful-text{
   color: #0095FF;
 }
 
 .separator{
-  width: 18%;
+  width: 13%;
   height: 4px;
   background-color: #0095FF;
-  margin-top: 2em;
-  margin-bottom: 6em;
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 73px;
 }
-//--- End - General Config
+
+/*----- HOME -----*/
+  #home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #home a {
+    color: white;
+  }
+
+  #home img {
+    width: 204px;
+    height: 68px;
+    margin-top: 160px;
+    vertical-align: middle;
+    margin-bottom: 69px;
+  }
+
+  #home .text {
+    color: white;
+    font-size: 33px;
+  }
+
+  #home li {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px;
+  }
+
+  #home .fa {
+    color: white;
+    padding-right: 10px;
+  }
+
+  #home .btn-home {
+    border: 1px solid #0095FF;
+    color: white;
+    padding: 17px 45px;
+    opacity: .8;
+  }
+
+  #home .btn-home1 {
+    background: #0095FF;
+  }
+
+  #home .btn-home2 {
+    background: transparent;
+    transition: all ease .3s;
+  }
+
+  #home .btn-home2:hover {
+    background: #0095FF;
+    transition: all ease .3s;
+  }
+/*----- END HOME -----*/
 
 
-//--- Packages Section
 
-  #package *{
-    padding: 10px 5px;
+/*----- FEATURES -----*/
+/*----- END FEATURES -----*/
+
+
+
+/*----- REVIEWS -----*/
+#review{
+  margin-top: 90px;
+  margin-bottom: 156px;
+}
+ #review .separator{
+  width: 13%;
+  height: 4px;
+  background-color: #00BFFF;
+  margin: 2em auto;
+  margin-top: 23px;
+  }
+
+  #review .review-title-1{
+   font-size: 46px;
+  }
+  #review .review-text-1{
+    font-size: 18px;
+   opacity: 0.8;
+  }
+  #review .item{
+    height: 180px;
+  }
+  #review .carousel-indicators .active{
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    border: none;
+    background-color: grey;
+  }
+
+  #review .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: lightgrey;
+    border: none
+  }
+  #review .carousel-indicators {
+    bottom: -24px;
+  }
+  #review .review-box{
+    margin-top: 45px;
+  }
+
+  #review .review-border{
+    border-right: 1px solid lightgrey!important;
+  }
+
+#review .review-padding{
+    padding-top: 50px;
+    margin-left: -42px;
+  }
+
+  #review .review-img{
+    border-radius: 50%;
+    width: 157px;
+    height: 157px;
+  }
+
+  #review .review-img-border{
+    border-radius: 50%;
+    border: 7px solid lightgrey;
+  }
+
+  #review .review-title{
+    font-weight:600;
+    font-size: 15px;
+  }
+
+  #review .review-text{
+    opacity: 0.8;
+  }
+
+  #review .review-description{
+    margin-top: 42px;
+    font-size: 15px;
+    line-height: 2;
+    opacity: 0.8;
+  }
+/*----- EN REVIEWS -----*/
+
+
+/*----- SERVICES -----*/
+  #services{
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  #services .separator{
+    width: 13%;
+    height: 4px;
+    background-color: #00BFFF;
+    margin: 2em auto;
+  }
+
+  #services .services-title-1{
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  #services .services-text-1{
+    opacity: 0.8;
+  }
+
+  #services .icons-services{
+    color: #0095FF;
+    font-size: 45px;
+    transition: all 0.8s ease-in-out;
+  }
+
+  #services .icons-services:hover{
+    transform: rotate(360deg);
+  }
+
+  #services .services-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #services .services-text{
+    line-height: 2.2;
+    opacity: 0.8;
+    font-size: 15px;
+  }
+/*----- END SERVICES -----*/
+
+
+/*----- DOWNLOAD -----*/
+  #download{
+    padding: 100px;
+  	height: 700px;;
+  }
+
+  #download .download-text{
+  }
+
+  #download .download-text h1{
+  	font-size: 45px;
+  }
+
+  #download .download-text hr{
+  	width: 160px;
+  	height: 4px;
+  	background-color: #0095ff;
+  }
+
+  #download .download-text p{
+  	font-size: 17px;
+  	line-height: 1.8;
+  }
+
+  #download button{
+  	background-color: #0095ff;
+  	padding: 20px;
+  	border: none;
+  	background-image: none;
+  	font-size: 18px;
+  	font-family: sans-serif;
+  	color: white;
+  }
+
+  #download .download-text button{
+  	padding: 20px 60px;
+  	margin-top: 30px;
+  }
+
+  #download .download-text button i{
+  	padding-right: 10px;
+  }
+
+  #download .carousel img{
+  	height: 525px;
+  }
+
+  #download-img1{
+    padding-left: 23px;
+  }
+
+  #download-img2{
+    padding-left: 90px;
+  }
+
+  #download-img3{
+    padding-left: 40px;
+  }
+  #download .carousel .item{
+  	width: 420px;
+  }
+
+  #download .carousel{
+  	display: inline-flex;
+  }
+
+  #download .blue-indicator{
+  	display: inline-flex;
+  	transform: translateY(-245px);
+  	font-size: 45px;
+  	padding: 6px 20px;
+  }
+/*----- END DOWNLOAD -----*/
+
+
+/*----- PACKAGE -----*/
+  #package{
+    background-color: rgba(241, 241, 241, 0.34)
   }
 
   #package{
@@ -73,9 +343,8 @@ body{
     background-color: #0095FF;
     height: 2px;
     width: 63%;
+    margin: 0 auto;
   }
-
-
 
   #package .card-block ul{
     list-style-type: none;
@@ -105,259 +374,4 @@ body{
   #package i{
     padding: 0 10px 0 5px;
   }
-
-
-//--- End - Packages Section
-
-
-#download{
-  padding: 100px;
-	height: auto;
-	position: absolute;
-}
-
-#download .download-text{
-}
-
-#download .download-text h1{
-	font-size: 45px;
-}
-
-#download .download-text hr{
-	width: 160px;
-	height: 4px;
-	background-color: #0095ff;
-}
-
-#download .download-text p{
-	font-size: 17px;
-	line-height: 1.8;
-}
-
-#download button{
-	background-color: #0095ff;
-	padding: 20px;
-	border: none;
-	background-image: none;
-	font-size: 18px;
-	font-family: sans-serif;
-	color: white;
-}
-
-#download .download-text button{
-	padding: 20px 60px;
-	margin-top: 30px;
-}
-
-#download .download-text button i{
-	padding-right: 10px;
-}
-
-#download .carousel img{
-	height: 525px;
-}
-
-#download .carousel .item{
-	width: 420px;
-}
-
-#download .carousel{
-	display: inline-flex;
-}
-
-#download .blue-indicator{
-	display: inline-flex;
-	transform: translateY(-245px);
-	font-size: 45px;
-	padding: 6px 20px;
-}
-
-.separator{
-  width: 13%;
-  height: 4px;
-  background-color: #00BFFF;
-  margin: 2em auto;
-  }
-
-/*-- REVIEWS --*/
-
-  .review-title-1{
-   font-size: 3.5em;
-  }
-  .review-text-1{
-   opacity: 0.8;
-  }
-  .item{
-    height: 180px;
-  }
-  .carousel-indicators .active{
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    border: none;
-    background-color: grey;
-  }
-
-  .carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: lightgrey;
-    border: none
-  }
-  .carousel-indicators {
-    bottom: -24px;
-  }
-  .review-box{
-    margin-top: 45px;
-  }
-
-  .review-border{
-    border-right: 1px solid lightgrey!important;
-  }
-
-
-  .review-padding{
-    padding-top: 50px;
-    margin-left: -42px;
-  }
-
-  .review-img{
-    border-radius: 50%;
-    width: 157px;
-    height: 157px;
-  }
-
-  .review-img-border{
-    border-radius: 50%;
-    border: 7px solid lightgrey;
-  }
-
-  .review-title{
-    font-weight:600;
-    font-size: 15px;
-  }
-
-
-
-/*-- SERVICES --*/
-  .services-title-1{
-    font-size: 50px;
-    font-weight: lighter;
-  }
-
-  .services-text-1{
-    opacity: 0.8;
-  }
-
-  .icons-services{
-    color: #0095FF;
-    font-size: 45px;
-    transition: all 0.8s ease-in-out;
-  }
-
-  .icons-services:hover{
-    transform: rotate(360deg);
-  }
-
-  .services-title{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  .services-text{
-    line-height: 2.2;
-    opacity: 0.8;
-    font-size: 15px;
-  }
-
-  .review-text{
-    opacity: 0.8;
-  }
-
-  .review-description{
-    margin-top: 42px;
-    font-size: 15px;
-    line-height: 2;
-    opacity: 0.8;
-  }
-
-.row {
-  width: 100%;
-}
-
-#home {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/slide1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#home a {
-  color: white;
-}
-
-#home img {
-  width: 204px;
-  height: 68px;
-  margin-top: 160px;
-  vertical-align: middle;
-  margin-bottom: 69px;
-}
-
-#home .text {
-  color: white;
-  font-size: 33px;
-}
-
-#home li {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 15px;
-}
-
-#home .fa {
-  color: white;
-  padding-right: 10px;
-
-}
-
-#home .btn-home {
-  border: 1px solid #0095FF;
-  color: white;
-  padding: 17px 45px;
-  opacity: .8;
-}
-
-#home .btn-home1 {
-  background: #0095FF;
-}
-
-#home .btn-home2 {
-  background: transparent;
-  transition: all ease .3s;
-}
-
-#home .btn-home2:hover {
-  background: #0095FF;
-  transition: all ease .3s;
-}
-
-#features {
-  width: 100%;
-  height: auto;
-  padding: 100px;
-}
-
-#features .title {
-  font-size: 20px;
-  color: white;
-  padding: 20px;
-}
+/*----- END PACKAGE -----*/
