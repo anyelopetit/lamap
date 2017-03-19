@@ -1,0 +1,69 @@
+#customize{
+  padding: 30px;
+}
+
+#customize .separator{
+  float: left;
+  width: 40%;
+}
+
+#customize .left-side{
+  margin-top: 60px;
+}
+
+#customize .right-side{
+  margin-top: 40px;
+}
+
+/* BUTTON SECTION*/
+.customize-button{
+  width: 20%;
+  margin-top: 60px;
+  background-color: inherit;
+  padding: 19px 0;
+}
+
+#customize .left-button{
+  border: 1px solid lightgray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+}
+
+#customize .middle-button{
+  border: 1px solid lightgray;
+  border-radius: 0px;
+}
+
+#customize .right-button{
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+}
+
+#customize i{
+  padding: 0px 7px;
+}
+/* END - BUTTON SECTION */
+
+/* PHONE IMAGE */
+.customize-img{
+  background-image: url(../img/iphones_skew.png);
+  background-repeat: no-repeat;
+  height: 700px;
+}
+/*END - PHONE IMAGE*/
+
+/* DESCRIPTION SECTION */
+
+#customize .big-title{
+  font-size: 3.4em;
+  font-weight: lighter;
+}
+
+/* END - DESCRIPTION SECTION*/
