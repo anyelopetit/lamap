@@ -219,7 +219,7 @@
     transition: all 0.8s ease-in-out;
   }
 
-  #services .icons-services:hover{
+  #services .icons-services2{
     transform: rotate(360deg);
   }
 
