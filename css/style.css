@@ -99,24 +99,17 @@
   }
 /*----- END HOME -----*/
 
-
-
-/*----- FEATURES -----*/
-/*----- END FEATURES -----*/
-
-
-
 /*----- REVIEWS -----*/
-#review{
-  margin-top: 90px;
-  margin-bottom: 156px;
-}
+  #review{
+    margin-top: 90px;
+    margin-bottom: 156px;
+  }
  #review .separator{
-  width: 13%;
-  height: 4px;
-  background-color: #00BFFF;
-  margin: 2em auto;
-  margin-top: 23px;
+    width: 13%;
+    height: 4px;
+    background-color: #00BFFF;
+    margin: 2em auto;
+    margin-top: 23px;
   }
 
   #review .review-title-1{
@@ -124,7 +117,7 @@
   }
   #review .review-text-1{
     font-size: 18px;
-   opacity: 0.8;
+    opacity: 0.8;
   }
   #review .item{
     height: 180px;
@@ -239,15 +232,12 @@
 
 /*----- PACKAGE -----*/
   #package{
-    background-color: rgba(241, 241, 241, 0.34)
-  }
-
-  #package{
+    background-color: rgba(241, 241, 241, 0.34);
     height: 700px;
     padding: 30px 0;
   }
 
-  #package h1{
+  #package .title{
     font-size: 3.5em;
   }
 
