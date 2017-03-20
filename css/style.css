@@ -23,6 +23,22 @@
   margin-bottom: 73px;
 }
 
+.separator-left{
+  width: 160px;
+  height: 4px;
+  background-color: #0095ff;
+  border: none;
+}
+
+.content-text h1{
+	font-size: 45px;
+}
+
+.content-text p{
+	font-size: 17px;
+	line-height: 1.8;
+}
+
 /*----- HOME -----*/
   #home {
     width: 100%;
@@ -142,7 +158,7 @@
     border-right: 1px solid lightgrey!important;
   }
 
-#review .review-padding{
+  #review .review-padding{
     padding-top: 50px;
     margin-left: -42px;
   }
@@ -220,82 +236,6 @@
     font-size: 15px;
   }
 /*----- END SERVICES -----*/
-
-
-/*----- DOWNLOAD -----*/
-  #download{
-    padding: 100px;
-  	height: 700px;;
-  }
-
-  #download .download-text{
-  }
-
-  #download .download-text h1{
-  	font-size: 45px;
-  }
-
-  #download .download-text hr{
-  	width: 160px;
-  	height: 4px;
-  	background-color: #0095ff;
-  }
-
-  #download .download-text p{
-  	font-size: 17px;
-  	line-height: 1.8;
-  }
-
-  #download button{
-  	background-color: #0095ff;
-  	padding: 20px;
-  	border: none;
-  	background-image: none;
-  	font-size: 18px;
-  	font-family: sans-serif;
-  	color: white;
-  }
-
-  #download .download-text button{
-  	padding: 20px 60px;
-  	margin-top: 30px;
-  }
-
-  #download .download-text button i{
-  	padding-right: 10px;
-  }
-
-  #download .carousel img{
-  	height: 525px;
-  }
-
-  #download-img1{
-    padding-left: 23px;
-  }
-
-  #download-img2{
-    padding-left: 90px;
-  }
-
-  #download-img3{
-    padding-left: 40px;
-  }
-  #download .carousel .item{
-  	width: 420px;
-  }
-
-  #download .carousel{
-  	display: inline-flex;
-  }
-
-  #download .blue-indicator{
-  	display: inline-flex;
-  	transform: translateY(-245px);
-  	font-size: 45px;
-  	padding: 6px 20px;
-  }
-/*----- END DOWNLOAD -----*/
-
 
 /*----- PACKAGE -----*/
   #package{
