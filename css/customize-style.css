@@ -2,6 +2,14 @@
   padding: 30px;
 }
 
+#customize a{
+  text-decoration: none;
+}
+
+#customize a:link{
+  color: inherit;
+}
+
 #customize .separator{
   float: left;
   width: 40%;
@@ -16,7 +24,7 @@
 }
 
 /* BUTTON SECTION*/
-.customize-button{
+#customize .customize-button{
   width: 20%;
   margin-top: 60px;
   background-color: inherit;
@@ -52,7 +60,7 @@
 /* END - BUTTON SECTION */
 
 /* PHONE IMAGE */
-.customize-img{
+#customize .customize-img{
   background-image: url(../img/iphones_skew.png);
   background-repeat: no-repeat;
   height: 700px;
