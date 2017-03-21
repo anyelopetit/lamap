@@ -47,7 +47,7 @@
 }
 
 #customize i{
-  padding: 0px 7px;
+  padding: 0px 14px;
 }
 /* END - BUTTON SECTION */
 
@@ -63,7 +63,40 @@
 
 #customize .big-title{
   font-size: 3.4em;
-  font-weight: lighter;
+  font-weight: 400;
+}
+
+#customize .paragrahp:first-child{
+  margin-top: -50px;
+}
+
+#customize .paragrahp{
+  font-size: 1.3em;
+  line-height: 2;
+}
+
+#customize .boxy{
+  padding-left: 0;
+  margin-top: 2em;
+}
+
+#customize .customize-parts{
+  height: 50px;
+  width: 100%;
+  padding: 20px 20px 50px 0px;
+  font-size: 1.3em;
+}
+#customize .customize-parts-e{
+  display: inline;
+}
+
+#customize .customize-parts .customize-parts-e:first-child{
+  font-size: 2em;
+  color: #0095FF;
+}
+
+#customize .customize-parts p{
+  vertical-align: top;
 }
 
 /* END - DESCRIPTION SECTION*/
