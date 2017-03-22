@@ -30,18 +30,18 @@
   <section id="home">
     <div class="container-fluid">
       <div class="row">
-        <div class="img text-center">
+        <div class="img text-center wow fadeIn" data-wow-duration="1s">
           <img src="img/lamap_logo.png">
         </div>
       </div>
       <div>
         <div class="row">
-          <div class="text text-center">
+          <div class="text text-center wow fadeIn" data-wow-duration="2s">
             <p>Present your app professional with <br> lamap landing page</p>
           </div>
         </div>
       </div>
-      <div class="buttons">
+      <div class="buttons wow fadeIn" data-wow-duration="3s">
         <div class="row">
           <ul class="list text-center">
             <li>
@@ -152,15 +152,15 @@
         <p class="content-text text-center">Giv an impression of your app in this carousel</p>
         <div class="text-center"><hr class="separator text-center"></div>
       </div>
-      <div class="owl-carousel owl-theme wow flipInX" data-wow-duration="1.4s">
-        <div class="item"><img src="img/screen1.png" alt=""></div>
-        <div class="item"><img src="img/screen2.png" alt=""></div>
-        <div class="item"><img src="img/screen3.png" alt=""></div>
-        <div class="item"><img src="img/screen4.png" alt=""></div>
-        <div class="item"><img src="img/screen1.png" alt=""></div>
-        <div class="item"><img src="img/screen2.png" alt=""></div>
-        <div class="item"><img src="img/screen3.png" alt=""></div>
-        <div class="item"><img src="img/screen4.png" alt=""></div>
+      <div class="owl-carousel owl-theme">
+        <div class="item wow flipInX" data-wow-duration=".5s"><img src="img/screen1.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="1s"><img src="img/screen2.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="1.5s"><img src="img/screen3.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="2s"><img src="img/screen4.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="2.5s"><img src="img/screen1.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="3s"><img src="img/screen2.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="3.5s"><img src="img/screen3.png" alt=""></div>
+        <div class="item wow flipInX" data-wow-duration="4s"><img src="img/screen4.png" alt=""></div>
       </div>
     </div>
   </section>
@@ -172,7 +172,7 @@
           <br>
           <br>
         If young people understood how doing well in school makes the rest of their life so much interesting, they would be more.</p>
-        <button type="button" name="button" class="btn btn-primary"><i class="fa fa-download"></i>Download</button>
+        <button type="button" name="button" class="btn btn-primary blue-button"><i class="fa fa-cloud-download"></i>Download</button>
       </div>
       <div class="download-carousel wow fadeInRight col-xl-6 col-lg-6 col-md-6">
         <button class="btn blue-indicator" href="#carousel-example-generic2" role="button" data-slide="prev">
@@ -223,7 +223,7 @@
               </ul>
             </div>
             <div class="card-footer text-muted">
-              <button><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
+              <button class="blue-button"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
             </div>
           </div>
         </div>
@@ -243,7 +243,7 @@
               </ul>
             </div>
             <div class="card-footer text-muted">
-              <button><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
+              <button class="blue-button"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@
               </ul>
             </div>
             <div class="card-footer text-muted">
-              <button><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
+              <button class="blue-button"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@
               </ul>
             </div>
             <div class="card-footer text-muted">
-              <button><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
+              <button class="blue-button"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order</b></button>
             </div>
           </div>
         </div>
@@ -293,19 +293,31 @@
   <section id="customize">
      <div class="container">
       <div class="row">
-        <div class="btn-group btn-group-justified text-center wow rollIn" data-wow-duration="1s" role="group" aria-label="true">
-          <a href="#customize-firstone" aria-controls="customize-firstone" role="tab" data-toggle="tab"><button type="button" class="customize-button left-button btn-lg"><b><i class="fa fa-gear" aria-hidden="true"></i>Customize</b></button></a>
-          <a href="#customize-secondone" aria-controls="customize-secondone" role="tab" data-toggle="tab"><button type="button" class="customize-button middle-button btn-lg"><b><i class="fa fa-cloud" aria-hidden="true"></i>Profile</b></button></a>
-          <a href="#customize-thirdone" aria-controls="customize-thirdone" role="tab" data-toggle="tab"><button type="button" class="customize-button right-button btn-lg"><b><i class="fa fa-refresh" aria-hidden="true"></i>Feature</b></button></a>
+        <div class="btn-group btn-group-justified text-center wow fadeInDown" data-wow-duration="1s" role="group" aria-label="true">
+          <a href="#customize-firstone" aria-controls="customize-firstone" role="tab" data-toggle="tab">
+            <button type="button" class="customize-button left-button btn-lg">
+              <b><i class="fa fa-gear can-spin" aria-hidden="true"></i>Customize</b>
+            </button>
+          </a>
+          <a href="#customize-secondone" aria-controls="customize-secondone" role="tab" data-toggle="tab">
+            <button type="button" class="customize-button middle-button btn-lg">
+              <b><i class="fa fa-cloud" aria-hidden="true"></i>Profile</b>
+            </button>
+          </a>
+          <a href="#customize-thirdone" aria-controls="customize-thirdone" role="tab" data-toggle="tab">
+            <button type="button" class="customize-button right-button btn-lg">
+              <b><i class="fa fa-refresh can-spin" aria-hidden="true"></i>Feature</b>
+            </button>
+          </a>
         </div>
       </div>
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade in active" id="customize-firstone">
+        <div id="customize-firstone" role="tabpanel" class="tab-pane in active">
           <div class="row">
-            <div class="col-lg-6 left-side wow zoomInLeft" data-wow-duration="1.4s">
+            <div class="col-lg-6 left-side wow fadeInLeft" data-wow-duration=".5s">
               <div class="customize-img"></div>
             </div>
-            <div class="col-lg-6 right-side wow zoomInRight" data-wow-duration="1.4s">
+            <div class="col-lg-6 right-side wow fadeInRight" data-wow-duration=".5s">
               <div class="row">
                 <h1 class="big-title">1. If you can't make it good, at least make it look good.</h1>
                 <hr class="separator">
@@ -347,12 +359,12 @@
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="customize-secondone">
+        <div id="customize-secondone" role="tabpanel" class="tab-pane">
           <div class="row">
-            <div class="col-lg-6 left-side">
+            <div class="col-lg-6 left-side wow fadeInLeft" data-wow-duration=".6s">
               <div class="customize-img"></div>
             </div>
-            <div class="col-lg-6 right-side">
+            <div class="col-lg-6 right-side wow fadeInRight" data-wow-duration=".6s">
               <div class="row">
                 <h1 class="big-title">2. If you can't make it good, at least make it look good.</h1>
                 <hr class="separator">
@@ -394,12 +406,12 @@
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="customize-thirdone">
+        <div id="customize-thirdone" role="tabpanel" class="tab-pane fade">
           <div class="row">
-            <div class="col-lg-6 left-side">
+            <div class="col-lg-6 left-side wow fadeInLeft" data-wow-duration=".4s">
               <div class="customize-img"></div>
             </div>
-            <div class="col-lg-6 right-side">
+            <div class="col-lg-6 right-side wow fadeInRight" data-wow-duration=".4s">
               <div class="row">
                 <h1 class="big-title">3. If you can't make it good, at least make it look good.</h1>
                 <hr class="separator">
