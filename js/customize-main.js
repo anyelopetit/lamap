@@ -10,18 +10,14 @@ function action(btn){
 };
 
 $(document).ready(function(){
+  // DEFAULT ACTIVE
+  action($('.left-button'));
   //LEFT BUTTON
-  $('.left-button').click(function(){
-    action($(this));
-  });
+  $('.left-button').click(function(){ action($(this)); });
 
   //MIDDLE BUTTON
-  $('.middle-button').click(function(){
-    action($(this));
-  });
+  $('.middle-button').click(function(){ action($(this)); });
 
   //LEFT BUTTON
-  $('.right-button').click(function(){
-    action($(this));
-  });
+  $('.right-button').click(function(){ action($(this)); });
 });
