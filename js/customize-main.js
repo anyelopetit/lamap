@@ -26,3 +26,4 @@ $(document).ready(function(){
   $('.right-button').click(function(){
     action($(this));
   });
+});
