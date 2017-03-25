@@ -1,91 +1,143 @@
- * {
+* {
   margin: 0;
-}
-body{
-  font-family:'Raleway', sans-serif;
-}
+  padding: 0;
+ }
 
+ body {
+   font-family: 'Lato', sans-serif;
+ }
 
-#download{
-  padding: 100px;
-	height: auto;
-	position: absolute;
+.row {
+  width: 100%;
 }
-
-#download .download-text{
-}
-
-#download .download-text h1{
-	font-size: 45px;
-}
-
-#download .download-text hr{
-	width: 160px;
-	height: 4px;
-	background-color: #0095ff;
-}
-
-#download .download-text p{
-	font-size: 17px;
-	line-height: 1.8;
-}
-
-#download button{
-	background-color: #0095ff;
-	padding: 20px;
-	border: none;
-	background-image: none;
-	font-size: 18px;
-	font-family: sans-serif;
-	color: white;
-}
-
-#download .download-text button{
-	padding: 20px 60px;
-	margin-top: 30px;
-}
-
-#download .download-text button i{
-	padding-right: 10px;
-}
-
-#download .carousel img{
-	height: 525px;
-}
-
-#download .carousel .item{
-	width: 420px;
-}
-
-#download .carousel{
-	display: inline-flex;
-}
-
-#download .blue-indicator{
-	display: inline-flex;
-	transform: translateY(-245px);
-	font-size: 45px;
-	padding: 6px 20px;
+.colorful-text{
+  color: #0095FF;
 }
 
 .separator{
   width: 13%;
   height: 4px;
-  background-color: #00BFFF;
-  margin: 2em auto;
+  background-color: #0095FF;
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 73px;
+}
+
+.separator-left{
+  width: 160px;
+  height: 4px;
+  background-color: #0095ff;
+  border: none;
+}
+
+.content-text h1{
+	font-size: 45px;
+}
+
+.content-text p{
+	font-size: 17px;
+	line-height: 1.8;
+}
+
+.blue-button{
+  background-color: #0095FF;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 16px 0 -10px 0;
+  padding: 15px 0;
+  width: 200px;
+}
+
+.blue-button b{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+/*----- HOME -----*/
+  #home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
-/*-- REVIEWS --*/
-  .review-title-1{
-   font-size: 3.5em;
+  #home a {
+    color: white;
   }
-  .review-text-1{
-   opacity: 0.8;
+
+  #home img {
+    width: 204px;
+    height: 68px;
+    margin-top: 160px;
+    vertical-align: middle;
+    margin-bottom: 69px;
   }
-  .item{
+
+  #home .text {
+    color: white;
+    font-size: 33px;
+  }
+
+  #home li {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px;
+  }
+
+  #home .fa {
+    color: white;
+    padding-right: 10px;
+  }
+
+  #home .btn-home {
+    border: 1px solid #0095FF;
+    color: white;
+    padding: 17px 45px;
+    opacity: .8;
+  }
+
+  #home .btn-home1 {
+    background: #0095FF;
+  }
+
+  #home .btn-home2 {
+    background: transparent;
+    transition: all ease .3s;
+  }
+
+  #home .btn-home2:hover {
+    background: #0095FF;
+    transition: all ease .3s;
+  }
+/*----- END HOME -----*/
+
+/*----- REVIEWS -----*/
+  #review{
+    margin-top: 90px;
+    margin-bottom: 156px;
+  }
+ #review .separator{
+    width: 13%;
+    height: 4px;
+    background-color: #00BFFF;
+    margin: 2em auto;
+    margin-top: 23px;
+  }
+
+  #review .review-title-1{
+   font-size: 46px;
+  }
+  #review .review-text-1{
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  #review .item{
     height: 180px;
   }
-  .carousel-indicators .active{
+  #review .carousel-indicators .active{
     width: 12px;
     height: 12px;
     margin: 0;
@@ -93,7 +145,7 @@ body{
     background-color: grey;
   }
 
-  .carousel-indicators li {
+  #review .carousel-indicators li {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -103,120 +155,153 @@ body{
     background-color: lightgrey;
     border: none
   }
-  .carousel-indicators {
+  #review .carousel-indicators {
     bottom: -24px;
   }
-  .review-box{
+  #review .review-box{
     margin-top: 45px;
   }
 
-  .review-border{
+  #review .review-border{
     border-right: 1px solid lightgrey!important;
   }
 
-  .review-padding{
+  #review .review-padding{
     padding-top: 50px;
     margin-left: -42px;
   }
 
-  .review-img{
+  #review .review-img{
     border-radius: 50%;
     width: 157px;
     height: 157px;
   }
 
-  .review-img-border{
+  #review .review-img-border{
     border-radius: 50%;
     border: 7px solid lightgrey;
   }
 
-  .review-title{
+  #review .review-title{
     font-weight:600;
     font-size: 15px;
   }
 
-  .review-text{
+  #review .review-text{
     opacity: 0.8;
   }
 
-  .review-description{
+  #review .review-description{
     margin-top: 42px;
     font-size: 15px;
     line-height: 2;
     opacity: 0.8;
   }
+/*----- EN REVIEWS -----*/
 
-.row {
-  width: 100%;
-}
 
-#home {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/slide1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+/*----- SERVICES -----*/
+  #services{
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  #services .separator{
+    width: 13%;
+    height: 4px;
+    background-color: #00BFFF;
+    margin: 2em auto;
+  }
 
-#home a {
-  color: white;
-}
+  #services .services-title-1{
+    font-size: 50px;
+    font-weight: lighter;
+  }
 
-#home img {
-  width: 204px;
-  height: 68px;
-  margin-top: 160px;
-  vertical-align: middle;
-  margin-bottom: 69px;
-}
+  #services .services-text-1{
+    opacity: 0.8;
+  }
 
-#home .text {
-  color: white;
-  font-size: 33px;
-}
+  #services .icons-services{
+    color: #0095FF;
+    font-size: 45px;
+    transition: all 0.8s ease-in-out;
+  }
 
-#home li {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 15px;
-}
+  #services .icons-services2{
+    transform: rotate(360deg);
+  }
 
-#home .fa {
-  color: white;
-  padding-right: 10px;
+  #services .services-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-}
+  #services .services-text{
+    line-height: 2.2;
+    opacity: 0.8;
+    font-size: 15px;
+  }
+/*----- END SERVICES -----*/
 
-#home .btn-home {
-  border: 1px solid #0095FF;
-  color: white;
-  padding: 17px 45px;
-  opacity: .8;
-}
+/*----- PACKAGE -----*/
+  #package{
+    background-color: rgba(241, 241, 241, 0.34);
+    height: 700px;
+    padding: 30px 0;
+  }
 
-#home .btn-home1 {
-  background: #0095FF;
-}
+  #package .title{
+    font-size: 3.5em;
+  }
 
-#home .btn-home2 {
-  background: transparent;
-  transition: all ease .3s;
-}
+  #package .sub-title{
+    margin-top: -5px;
+  }
 
-#home .btn-home2:hover {
-  background: #0095FF;
-  transition: all ease .3s;
-}
+  #package .card{
+    border: 1px solid lightgray;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 4px;
+    transition: .4s;
+  }
 
-#features {
-  width: 100%;
-  height: auto;
-  padding: 100px;
-}
+  #package .card:hover{
+    margin-top: -10px;
+    padding-top: 42px;
+    padding-bottom: 50px;
+    transition: .4s;
+  }
 
-#features .title {
-  font-size: 20px;
-  color: white;
-  padding: 20px;
-}
+  .card-header p:first-child{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+  }
+
+  .card-header p:nth-child(2){
+    font-size: 2em;
+  }
+
+  #package .card-header hr{
+    background-color: #0095FF;
+    height: 2px;
+    width: 63%;
+    margin: 0 auto;
+  }
+
+  #package .card-block ul{
+    list-style-type: none;
+    padding-left: 0;
+
+  }
+
+  #package .card-block ul li{
+    padding: 8px 0;
+  }
+
+  #package i{
+    padding: 0 10px 0 5px;
+  }
+/*----- END PACKAGE -----*/
