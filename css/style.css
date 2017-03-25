@@ -300,3 +300,66 @@ body {
     padding: 0 10px 0 5px;
   }
 /*----- END PACKAGE -----*/
+
+#purchase .purchase-sect {
+  background: lightgray;
+  opacity: .4;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+#purchase .mask{
+  height: 60px;
+  z-index: -1;
+  position: sticky;
+}
+
+#purchase .row {
+  width: 100%;
+}
+
+#purchase .items {
+  text-align: center;
+  display: inline-block;
+}
+
+#purchase .title{
+  width: 100p%;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+#purchase hr{
+  background-color: #0095ff;
+  width: 160px;
+  height: 3px;
+
+}
+#purchase .purchase-boton{
+  margin-top: 50px;
+  background-color: #0095ff;
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+  transition: all ease .3s;
+  border: 1px solid #0095ff;
+}
+
+#purchase i {
+  padding-right: 5px;
+}
+
+#purchase .purchase-boton:hover{
+  background: transparent;
+  color:  #0095ff;
+  transition: all ease .3s;
+
+}
+
+#purchase .separator {
+  margin-left: 3px;
+  margin-right: 3px;
+}
