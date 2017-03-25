@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Raleway', sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+
+#features {
+  width: 100%;
+  height: auto;
+  padding: 100px auto !important;
+}
+
+#features .title {
+  font-size: 42px;
+  font-weight: 300;
+  padding-bottom: 20px;
+
+}
+
+#features .subtitle{
+  font-size: 16px;
+}
+
+#features .underline {
+  border-top: 4px solid #0099E6;
+  display: inline-block;
+  width: 160px;
+  height: 1px;
+  margin-top: 21px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 79px;
+  transition: all ease .3s;
+}
+
+.center {
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#features .icon {
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  border-radius: 50%;
+  color: #0099E6;
+  text-align: center;
+  border: 1px solid #0099E6;
+  line-height: 80px;
+  transition: all ease .3s;
+}
+
+#features .features-title {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+#features .features-description {
+  font-size: 14px;
+  color: #f9f9f9;
+}
+
+#features .features-div {
+  display: inline-block;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+#features .left {
+  float: left;
+}
+
+#features .right {
+  float: right;
+}
+
+#features .padding-left {
+  padding-left: 50px;
+}
+
+#features .margin-left {
+  margin-left: 30px;
+}
+
+#features .padding {
+  padding-top: 110px;
+}
