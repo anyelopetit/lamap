@@ -4,6 +4,7 @@
 
 #customize a{
   text-decoration: none;
+  margin: -2px;
 }
 
 #customize a:link{
