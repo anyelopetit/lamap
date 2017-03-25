@@ -39,6 +39,21 @@
 	line-height: 1.8;
 }
 
+.blue-button{
+  background-color: #0095FF;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 16px 0 -10px 0;
+  padding: 15px 0;
+  width: 200px;
+}
+
+.blue-button b{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
 /*----- HOME -----*/
   #home {
     width: 100%;
@@ -284,21 +299,6 @@
 
   #package .card-block ul li{
     padding: 8px 0;
-  }
-
-  #package button{
-    background-color: #0095FF;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    margin: 16px 0 -10px 0;
-    padding: 15px 0;
-    width: 82%;
-  }
-
-  #package button b{
-    color: #FFF;
-    font-weight: 600;
-    font-size: 1.4em;
   }
 
   #package i{

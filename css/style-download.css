@@ -17,12 +17,7 @@
   	color: white;
   }
 
-  #download .download-text button{
-  	padding: 20px 60px;
-  	margin-top: 30px;
-  }
-
-  #download .download-text button i{
+  #download .content-text .blue-button i{
   	padding-right: 10px;
   }
 
