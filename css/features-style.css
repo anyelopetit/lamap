@@ -14,7 +14,7 @@ body {
 #features {
   width: 100%;
   height: auto;
-  padding: 100px auto;
+  padding: 100px auto !important;
 }
 
 #features .title {
@@ -58,65 +58,29 @@ body {
   height: 80px;
   font-size: 32px;
   border-radius: 50%;
-  color: white;
+  color: #0099E6;
   text-align: center;
   border: 1px solid #0099E6;
   line-height: 80px;
-  float: right;
-  margin-bottom: 5px;
   transition: all ease .3s;
-}
-
-
-#features .icon:hover {
-  color: white;
-  background: #0099E6;
-  transition: all ease .3s;
-}
-
-#features .fa {
-  color: #0099E6;
 }
 
 #features .features-title {
-  font-weight: bold;
-  font-size: 16px;
-  padding-bottom: 10px;
-}
-
-#features p {
   font-size: 16px;
   font-weight: 300;
-  line-height: 2em;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  text-align: left;
-  text-justify: center;
+  color: black;
 }
 
-#features .margin-left-title {
-  margin-left: 20px;
+#features .features-description {
+  font-size: 14px;
+  color: #f9f9f9;
 }
 
-#features .margin-left-p {
-  text-align: right;
-  justify-content: right;
-}
-
-#features .margin-right-title {
-  margin-right: 0px;
-}
-
-#features .margin-left-icon {
-  margin-left: 32px;
-}
-
-#features .margin-right-icon {
-  margin-right: 32px;
-}
-
-#features .padding {
-  padding-top: 100px;
+#features .features-div {
+  display: inline-block;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 #features .left {
@@ -125,4 +89,16 @@ body {
 
 #features .right {
   float: right;
+}
+
+#features .padding-left {
+  padding-left: 50px;
+}
+
+#features .margin-left {
+  margin-left: 30px;
+}
+
+#features .padding {
+  padding-top: 110px;
 }
