@@ -1,0 +1,53 @@
+/*----- DOWNLOAD -----*/
+  #download{
+    padding: 100px;
+  	height: 700px;;
+  }
+
+  #download .download-text{
+  }
+
+  #download button{
+  	background-color: #0095ff;
+  	padding: 20px;
+  	border: none;
+  	background-image: none;
+  	font-size: 18px;
+  	font-family: sans-serif;
+  	color: white;
+  }
+
+  #download .content-text .blue-button i{
+  	padding-right: 10px;
+  }
+
+  #download .carousel img{
+  	height: 525px;
+  }
+
+  #download-img1{
+    padding-left: 23px;
+  }
+
+  #download-img2{
+    padding-left: 90px;
+  }
+
+  #download-img3{
+    padding-left: 40px;
+  }
+  #download .carousel .item{
+  	width: 420px;
+  }
+
+  #download .carousel{
+  	display: inline-flex;
+  }
+
+  #download .blue-indicator{
+  	display: inline-flex;
+  	transform: translateY(-245px);
+  	font-size: 45px;
+  	padding: 6px 20px;
+  }
+/*----- END DOWNLOAD -----*/
