@@ -4,7 +4,9 @@ body {
 
 .row {
   width: 100%;
+  margin: 0;
 }
+
 .colorful-text{
   color: #0095FF;
 }
@@ -301,6 +303,10 @@ body {
   }
 /*----- END PACKAGE -----*/
 
+#purchase {
+  height: 500px;
+}
+
 #purchase .purchase-sect {
   background: lightgray;
   opacity: .4;
@@ -312,10 +318,6 @@ body {
   height: 60px;
   z-index: -1;
   position: sticky;
-}
-
-#purchase .row {
-  width: 100%;
 }
 
 #purchase .items {
@@ -336,7 +338,6 @@ body {
 
 }
 #purchase .purchase-boton{
-  margin-top: 50px;
   background-color: #0095ff;
   width: 180px;
   height: 50px;
@@ -357,9 +358,4 @@ body {
   color:  #0095ff;
   transition: all ease .3s;
 
-}
-
-#purchase .separator {
-  margin-left: 3px;
-  margin-right: 3px;
 }
